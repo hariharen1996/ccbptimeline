@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.project-headings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.proj-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.project-img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .project-heading {
+    font-size: 14px;
+  }
+  .proj-duration {
+    font-size: 12px;
+  }
+  .project-description {
+    font-size: 13px;
+  }
+}
+
+.project-heading {
+  color: #171f46;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.proj-duration {
+  color: #1e293b;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.project-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+.link {
+  color: #0967d2;
+  font-size: 13px;
+  font-weight: 600;
+}

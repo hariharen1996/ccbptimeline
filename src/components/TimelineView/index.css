@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.sub-heading {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+
+.chrono-container {
+  width: 800px;
+  height: 700px;
+}
+
+@media screen and (max-width: 768px) {
+  .chrono-container {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .chrono-container {
+    width: 400px;
+    height: 350px;
+  }
+}
